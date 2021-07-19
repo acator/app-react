@@ -1,0 +1,46 @@
+/******General Settings*******/
+html{
+	background-color: #fff;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+body{
+  background-color:white;
+	margin: 0;
+	flex-direction: column;
+	display:flex;
+	flex:auto;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border:0;
+}
+h1{
+	margin-top: 0;
+}
+*{
+  font-family: Verdana ;
+}
+/********Settings for all page*******/
+.app-wrapper{
+ display:grid;
+ width: 100%;
+min-width: 430px;
+}
+/********Settings for information of page person******/
+.content_main{
+ display:grid;
+ grid-template-columns:12fr;
+ width: inherit;
+ height:100%;
+ color:#414C57;
+ margin: auto 20px;
+
+}
+
+/*******Settings of header ******/
+
+

@@ -1,0 +1,122 @@
+.all_dialogs{
+    display:grid;
+    margin : 20px 0px 20px 20px;
+    box-sizing: border-box;
+    padding:10px;
+    width: 60%;
+    margin: 10px auto;
+
+}
+.content_dialogs{
+   display:grid;
+   grid-template-columns: 1fr 2fr;
+}
+.list_dialogs_friends{
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+
+}
+a.active{
+    color:gold;
+}
+.friend{
+    display:flex;
+    flex-direction: row;
+    margin: 0;
+    height:70px;
+    box-sizing: border-box;
+
+    color:black;
+}
+.friend:hover{
+    border-bottom: 1px solid#318CE7;
+    box-sizing: border-box;
+}
+.friend_photo > img{
+    width: 50px;
+    height:50px;
+    align-items: center;
+
+}
+.friend_photo{
+    height:50px;
+    width: 50px;
+    overflow: hidden;
+    border-radius: 25px;
+    align-self: center;
+
+}
+.friend_name{
+    display:grid;
+    align-items: center;
+    color:black !important;
+    
+}
+.our_message{
+    display:block;
+    vertical-align: end;
+}
+.message_icon {
+    height:50px;
+    width: 50px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+.message_icon > img{
+    height:50px;
+    width: 50px;
+}
+.dialogs_withSomebody{
+    border-left: 1px solid grey;
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
+    
+}
+.our_message, .message_of_friend{
+    display: grid;
+    grid-template-columns: 1fr 2fr 8fr;
+    align-items: center;
+    margin-top:10px;
+
+
+}
+.our_message> .answer{
+    background-color: mintcream;
+}
+.answer{
+    padding:20px;
+    background-color: lightgray;
+    border-radius: 25px;
+}
+.submit_text{
+    display: block;
+    width: inherit;
+    float:right;
+    width:100%;
+    box-sizing: border-box;
+}
+.submit_text >textarea{
+    width: 60%;
+    display:block;
+    float:right;
+    border-radius: 15px;
+    padding:10px;
+    box-sizing: border-box;
+
+   
+}
+.submit_text > input{
+    display:block;
+    width: 5%;
+    float:right;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin:9px;
+}
+.dialogs_withSomebody{
+    height:400px;
+    overflow-y: scroll;
+}
