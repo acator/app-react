@@ -1,0 +1,114 @@
+
+
+.friends_global{
+    display:grid;
+    grid-template-columns: 6fr 6fr;    
+    background-color: #CCE4F7;
+    min-width: 340px;
+    width:60%;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+.alone_people{
+   height: 400px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+   padding: 40px;
+   box-sizing: border-box;
+   margin: 10px;
+}
+
+.friend_name1{
+    margin: 5px;
+    width: 90%;
+    box-sizing: border-box;
+    height:200px;
+    justify-content:center;
+
+    margin:  auto;
+}
+.friend_name1 > div > img{
+    height:150px;
+    justify-content:center;
+    margin:  0 auto;
+
+
+
+}
+.friend_name1 > div{
+    height:150px;
+    width: 150px;
+    overflow: hidden;
+    margin-right:20px;
+   float: right;
+    justify-content:center;
+
+   margin:auto;
+
+}
+.button_follow > button{
+     width:auto;
+      color:white;
+      background-color:black;
+     height: 40px;
+     border:none;
+     border-radius: 15px;
+    display:inline;
+    float: right;
+    justify-content:center;
+   margin:auto;
+   
+
+}
+.button_follow{
+    display:flex;
+    flex-direction: column;
+}
+
+.live{
+    width: 200px !important;
+}
+.live > div{
+    width: 200px;
+}
+.totalPage{
+    font-style: bold;
+    color:white;
+
+}
+
+   
+    
+
+.pagination_container{
+    margin: 20px auto 20px;
+    width: 60%;
+}
+.pages{
+    width:35px;
+    font-family: MV Boli;
+    border:#52D9E2 solid 4px ;
+    margin: 5px ;
+    padding: 5px;
+    text-align: center;
+    display:inline-block;
+    background-color: black;
+    color:#52D9E2;
+    
+    
+}
+.pagination_container > button{
+    border:#52D9E2 solid 4px ;
+    font-family: MV Boli;
+       padding: 5px;
+         margin: 5px ;
+    text-align: center;
+    background-color: black;
+    color:#52D9E2;
+    font-weight: bold;
+    font-size: 110%;
+
+
+}

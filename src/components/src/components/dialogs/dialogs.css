@@ -1,0 +1,160 @@
+.all_dialogs{
+    display:grid;
+    grid-template-rows:1fr  5fr ;
+    margin : 20px 0px 20px 20px;
+    box-sizing: border-box;
+    padding:10px;
+    width: 60%;
+    margin: 10px auto;
+
+}
+.content_dialogs{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+    box-sizing: border-box;
+
+}
+.header_dialogs{
+    margin:10px;
+
+}
+.header_dialogs> button{
+    display: none;
+    margin: 0 auto;
+}
+.list_dialogs_friends{
+   display: grid;
+   margin:10px;
+   padding: 10px;
+}
+.list_dialogs_friends_clone{
+     display: grid;
+   margin:10px;
+   padding: 10px;
+}
+a.active{
+    color:gold;
+}
+.friend{
+   display:grid;
+   grid-template-columns: 1fr 7fr ;
+   
+    margin: 0;
+    height:70px;
+    box-sizing: border-box;
+
+    color:black;
+}
+.friend:hover{
+    border-bottom: 1px solid#318CE7;
+    box-sizing: border-box;
+}
+.friend_photo > img{
+    width: 50px;
+    height:50px;
+   
+
+}
+.friend_photo{
+    height:50px;
+    width: 50px;
+    overflow: hidden;
+    border-radius: 25px;
+   
+}
+.friend_name{
+    color:black !important;
+}
+.our_message{
+    display:block;
+    vertical-align:end;
+}
+.message_icon {
+    height:50px;
+    width: 50px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+.message_icon > img{
+    height:50px;
+    width: 50px;
+}
+.dialogsWithFriends{
+    display: grid;
+    grid-template-rows: 1fr 0.1fr;
+    box-sizing: border-box;
+}
+.dialogs_withSomebody{
+    border-left: 1px solid grey;
+    padding: 20px;
+    margin:10px;
+    
+}
+.our_message, .message_of_friend{
+    display: grid;
+    grid-template-columns: 1fr 1fr 4fr;
+    height: 70px;
+    margin-top:10px;
+
+
+}
+.our_message> .answer{
+    background-color: mintcream;
+   
+}
+.answer{
+    padding:20px;
+    background-color: lightgray;
+    border-radius: 25px;
+}
+.submit_text{
+    display:grid;
+    grid-template-columns: 11fr 1fr;
+    float:right;
+    margin:10px;
+    box-sizing: border-box;
+}
+.submit_text >textarea{
+    padding:10px;
+    color:black;
+    margin-right: 10px;
+     resize: none; 
+
+   
+}
+.submit_text > input{
+    box-sizing: border-box;
+    height:100%;
+    color:black;
+}
+.dialogs_withSomebody{
+    overflow-y: scroll;
+}
+@media screen and (max-width: 700px){
+    .list_dialogs_friends{
+        display:none ;
+    }
+    .content_dialogs{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+     .header_dialogs> button{
+    display: block;
+    }
+}
+@media screen and (max-width: 600px){
+    .list_dialogs_friends{
+        display:none ;
+    }
+    .content_dialogs{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .all_dialogs{
+        margin: 0;
+        width:100%;
+    }
+    .header_dialogs> button{
+    display: block;
+    }
+}

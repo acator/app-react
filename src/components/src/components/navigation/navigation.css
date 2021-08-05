@@ -1,0 +1,81 @@
+.nav{
+    margin: 0px;
+    padding: 10px 10%;
+    box-sizing: border-box;
+    background-color:#231F20;
+    vertical-align:middle;
+  
+  }
+  
+  .label a{
+    color:white;
+  }
+  a.activeLink {
+    color: gold;
+  }
+  .searchPeople{
+    margin: 0 20px 0 100px;
+    vertical-align:middle;
+    background-color: #4F4C4D;
+    border-radius: 15px;
+    outline: none;
+    width:20%;
+    height:70%;
+    color:white;
+    padding:5px;
+
+  }
+  .logo{
+    vertical-align:middle;
+
+  }
+.label{
+  display: inline;
+  margin: 10% 0px;
+  color:white;
+  padding:10px;
+}
+.media_five{
+  margin:0 auto;
+  
+}
+.media_five>button{
+  width: 50px;
+  background-color: black;
+  display:none;
+}
+.hide_component{
+  display: block;
+  background-color: #231F20;
+ 
+
+}
+.media_navigation{
+  display:inline;
+   position: absolute;
+  z-index: 999;
+}
+.component{
+  display: block;
+}
+@media screen and (max-width:1300px){
+  .searchPeople{
+   display:none;
+
+ }
+}
+@media screen and (max-width:1050px){
+ .hide{
+   display:none;
+ } 
+ .searchPeople{
+   display:none;
+
+ }
+ .nav{
+   text-align: center;
+ }
+ .media_five>button{
+   display:inline;
+ }
+}

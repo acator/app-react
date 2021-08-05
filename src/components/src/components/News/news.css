@@ -1,0 +1,18 @@
+.contentNews{
+    display:grid;
+    margin: 0 auto;
+    width:60%;
+
+}
+.postOfNews{
+    display: grid;
+    width:60%;
+    margin: 20px auto;
+    padding:20px ;
+    background-color: #F6F6F6;
+    
+
+}
+.contentNews >h1 {
+     margin: 20px auto;
+}

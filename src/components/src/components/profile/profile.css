@@ -1,0 +1,301 @@
+.content{
+    display: grid;
+    padding: 10px;
+    box-sizing: border-box;
+    grid-template-columns:4fr;
+    background:url(https://themified.com/friend-finder/images/covers/1.jpg) no-repeat ;  
+    background-size: 1500px 500px ;
+    margin: auto ;
+    width:80%;
+    grid-template-rows: 3fr 1fr;
+  
+  }
+  .container_info{
+    position: absolute;
+    top:400px;
+    width:63%;
+  }
+  /****Settings of information of person and his published posts****/
+.person{
+    box-sizing: border-box;
+  
+  }
+  .person_photo{
+    border-radius:100px;
+    height:200px;
+    width: 200px;
+    overflow:hidden;
+    border:solid white 10px ;
+    margin: 0 auto;
+
+
+  }
+  .person_photo img{
+    height:200px;
+    width: 200px;
+  }
+
+ .choosePhoto{
+   display: inline-block;
+   width:115px;
+   border: 1px solid black;
+   overflow:hidden;
+ }
+ .editPhoto{
+   background-color: black;
+   color: blanchedalmond;
+   position: absolute;
+   z-index: 2;
+   width:220px;
+    
+ }
+ .button_edit{
+   display:block;
+   background-color: black;
+   box-sizing: border-box;
+   width:90%;;
+   border:black;
+   margin:10px;
+   color:white;
+   padding: 10px;
+ }
+ .modalForPhoto{
+   background-color: black;
+   width:800px;
+   text-align: center;
+
+ }
+ .modalForPhoto > img{
+   height:500px;
+      
+
+ }
+ .modalForPhoto > button {
+   background-color: black;
+   float: right;
+   
+   border:black;
+ }
+ .closeEdit{
+   position:relative;
+   top:-8px;
+   left:70px;
+   background-color: black;
+   color: white;
+   border: black;
+ }
+ 
+  .choosePhoto> input{
+   background-color:pink;
+   color:white;
+   width:200px;
+   margin: 0 auto;
+
+ }
+  
+  .padding{
+    padding: 10px;
+    display:inline-block;
+  
+  }
+  
+  .size_font{
+    display: inline;
+    font-size: 120%;
+
+  }
+  .my_posts{
+   
+    margin: 0 auto;
+    width: 60%;
+    height:40px;
+    position:relative;
+    top:500px;
+  }
+  
+  .form_post_send{
+     position:absolute;
+
+     left: 100px;
+     display: inline;
+  }
+  .form_post_send > input{
+    display:inline;
+    background-color: #F0F0F0;
+     border-radius: 15px;
+    height:40px;
+
+
+  }
+  .form_post_send  input[type = "button"]{
+    display:inline;
+    border-radius: 15px;
+    background-color: #27AAE1;
+    color:white;
+    height:40px;
+    vertical-align: middle;
+  }
+  .user_photo{
+    height:50px;
+    
+  }
+   .publ_posts{
+    margin:10px 0 10px 0;
+    padding: 10px;
+     margin: 0 auto;
+    width:60%;
+    box-sizing: border-box;
+    background-color: #F8F8F8;
+    position: relative;
+    left:5%;;
+    
+  }
+  .user_photo{
+    border-radius: 25px;
+    overflow:hidden;
+    height:50px;
+    width:50px ;
+    
+  }
+  .user_photo>img{
+    height:50px;
+    width:50px ;
+  }
+  .block_post{
+    width:100%;
+    padding: 10px;
+  
+  }
+  .user_text{
+    margin-top: 10px;
+    max-width:676px;
+    min-width:360px;
+  
+  }
+   .like , .dislike {
+     display:inline;
+    
+     text-align: center;
+     padding: 5px;
+     margin: 10px;
+     
+    }
+    .like{
+      color:green;
+    }
+     .dislike{
+      color:red;
+    }
+    .box_like_dis{
+        text-align: right;
+        height:50px;
+        margin-top: 20px;
+    }
+    .float{
+      display:inline;
+      float:right;
+    }
+    .person_info{
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    margin:10px;
+    text-align: center;
+
+    }
+    .mini_nav{
+      width: 100%;
+      display:flex;
+      background-color: black;
+      height:40px;
+      border: black solid 2px;
+      opacity: 0.5;
+       text-align: center;
+       flex-direction:space-between;
+    }
+    .container_info{
+      display: grid;
+      grid-template-columns: 1fr 3fr;
+      
+    }
+    .link_info{
+      margin:10px;
+      width: 30%;
+      color:white;
+      text-align: center;
+      display:inline;
+    }
+  
+.close {
+    top: 10px;
+    right: 10px;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(0, 130, 230, 0.9);
+    cursor: pointer;
+    outline: none;
+}
+.close:before {
+    color: rgba(255, 255, 255,1);
+    content: "X";
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+}
+.close:hover {
+    background-color: rgba(180, 20, 14, 1);
+}
+
+.form_contact{
+  background-color: white;
+  display: inline-block;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 15px;
+}
+.form_contact> div{
+  margin:10px;
+
+}
+.status{
+  display:block;
+  background-color:black;
+  color:white;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+@media screen and (max-width:990px){
+  .container_info{
+    margin:0 auto;
+    display: inline;
+    max-width: 300px;
+
+  }
+  .form_post_send{
+    top:300px;
+    position: relative;
+    left:0;
+  }
+  .my_posts{
+    top:500px;
+    position: relative;
+    left:0;
+  }
+  .publ_posts{
+     top:300px;
+    position: relative;
+    left:50px;
+  }
+  .mini_nav{
+    margin: 0 auto;
+    position:relative;
+  }
+  .content{
+    margin:none;
+  }
+}

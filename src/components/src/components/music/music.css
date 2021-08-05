@@ -1,0 +1,39 @@
+.contentMusic{
+    display:grid;
+    margin:30px auto;
+}
+.audioPlayer{
+    float:right;
+    height:50px;
+    box-sizing: border-box;
+}
+.box_player{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    background-color: #F1F3F4;
+}
+.box_player > div{
+    vertical-align: middle;
+    margin:10px;
+    align-items:center;
+    
+}.myAlbums{
+    display:grid;
+    grid-template-columns: 1fr;
+
+}
+.album{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.modalMusicAlbum{
+ 
+   
+ 
+}
+
+.modalMusicAlbum >button{
+    background-color: white;
+    border:none;
+    float:right;
+}

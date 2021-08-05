@@ -1,0 +1,43 @@
+
+
+.log_in > input{
+    display: block;
+}
+.input_login_in_checkbox{
+    display: inline;
+    margin:10px;
+
+}
+.log_in > input[type="submit"]{
+    display: block;
+    margin:0 auto;
+    width:60%;
+    background-color:black;
+    color:white;
+    border:black;
+}
+.login_in > label{
+    display: block;
+}
+label > div{
+    display: inline;
+}
+.summeryError{
+    border: 2px solid red;
+    color:red;
+}
+.log_in{
+    padding:20px;
+    background-color:#231F20;
+    margin: 0 auto;
+    display:inline-block;
+
+}
+.form_login_in{
+    display: inline-block;
+    margin:20px auto;
+}
+.input_log_in{
+    padding:10px;
+    margin:10px;
+}
